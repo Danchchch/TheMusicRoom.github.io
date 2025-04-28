@@ -25,7 +25,7 @@ main img {
 }
 
 button {
-  background: url(media/Asset_15.png);
+  background: url(../media/Asset_15.png);
   background-size: cover;
   width: 72px;
   height: 50px;
@@ -43,7 +43,7 @@ button {
 /* BUTTONS 5 PLUS and 5 MINUS */
 
 #secmin {
-  background: url(media/Asset\ 10.png);
+  background: url(../media/Asset\ 10.png);
   background-size: cover;
   left: 40%;
   width: 197px;
@@ -51,7 +51,7 @@ button {
 }
 
 #secplus {
-  background: url(media/Asset\ 9.png);
+  background: url(../media/Asset\ 9.png);
   background-size: cover;
   left: 60%;
   width: 197px;
@@ -61,14 +61,14 @@ button {
 /* Switch For 5 dancers */
 
 .switchleft {
-  background: url(media/Asset\ 5.png);
+  background: url(../media/Asset\ 5.png);
   background-size: cover;
   left: 20%;
   width: 47px;
 }
 
 .switchleft:hover {
-  background: url(media/Asset\ 6.png);
+  background: url(../media/Asset\ 6.png);
   background-size: cover;
 }
 
@@ -89,14 +89,14 @@ button {
 }
 
 .switchright {
-  background: url(media/Asset\ 4.png);
+  background: url(../media/Asset\ 4.png);
   background-size: cover;
   left: 80%;
   width: 47px;
 }
 
 .switchright:hover {
-  background: url(media/Asset\ 7.png);
+  background: url(../media/Asset\ 7.png);
   background-size: cover;
 }
 
@@ -119,7 +119,7 @@ button {
 /* Left and Right buttons, 2 or 4 for each dancer */
 
 .leftB {
-  background: url(media/Asset\ 1.png);
+  background: url(../media/Asset\ 1.png);
   background-size: cover;
   width: 29px;
   height: 247px;
@@ -129,7 +129,7 @@ button {
 }
 
 .leftB:hover {
-  background: url(media/Asset\ 17.png);
+  background: url(../media/Asset\ 17.png);
   background-size: cover;
 }
 
@@ -154,7 +154,7 @@ button {
 }
 
 .rightB {
-  background: url(media/Asset\ 2.png);
+  background: url(../media/Asset\ 2.png);
   background-size: cover;
   width: 29px;
   height: 247px;
@@ -164,7 +164,7 @@ button {
 }
 
 .rightB:hover {
-  background: url(media/Asset\ 16.png);
+  background: url(../media/Asset\ 16.png);
   background-size: cover;
 }
 
