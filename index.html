@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <img id="logo" src="/media/Asset 3.png">
+    <main>
+      <img id="imageFront" src="/media/AdobeStock_407451671.jpeg">
+      
+      <button id="play" onclick="toggleVid()"></button>
+      <button id="secmin" onclick="secmin()"></button>
+      <button id="secplus" onclick="secplus()"></button>
+      <button class="switchleft" id="Dani1" onclick="switchleft1()"></button>
+      <button class="switchright" id="Dani2" onclick="switchright1()"></button>
+      <button class="switchleft" id="YanWa1" onclick="switchleft2()"></button>
+      <button class="switchright" id="YanWa2" onclick="switchright2()"></button>
+      <button class="switchleft" id="Yisola1" onclick="switchleft3()"></button>
+      <button class="switchright" id="Yisola2" onclick="switchright3()"></button>
+      <button class="switchleft" id="Isha1" onclick="switchleft4()"></button>
+      <button class="switchright" id="Isha2" onclick="switchright4()"></button>
+      <button class="switchleft" id="Mayara1" onclick="switchleft5()"></button>
+      <button class="switchright" id="Mayara2" onclick="switchright5()"></button>
+
+      <!-- Dani -->
+      <button class="leftB" id="right1" onclick="changeVid4()"></button>
+      <button class="leftB" id="center1" onclick="changeVid1()"></button>
+      <button class="rightB" id="left1" onclick="changeVid2()"></button>
+      <button class="rightB" id="center2" onclick="changeVid3()"></button>
+
+      <!-- YanWa -->
+      <button class="leftB" id="right2" onclick="changeVid8()"></button>
+      <button class="leftB" id="center3" onclick="changeVid5()"></button>
+      <button class="rightB" id="left2" onclick="changeVid6()"></button>
+      <button class="rightB" id="center4" onclick="changeVid7()"></button>
+
+      <!-- Yisola -->
+      <button class="leftB" id="right3" onclick="changeVid12()"></button>
+      <button class="leftB" id="center5" onclick="changeVid9()"></button>
+      <button class="rightB" id="left3" onclick="changeVid10()"></button>
+      <button class="rightB" id="center6" onclick="changeVid11()"></button>
+
+      <!-- Isha -->
+      <button class="leftB" id="right4" onclick="changeVid16()"></button>
+      <button class="leftB" id="center7" onclick="changeVid13()"></button>
+      <button class="rightB" id="left4" onclick="changeVid14()"></button>
+      <button class="rightB" id="center8" onclick="changeVid15()"></button>
+
+      <!-- Mayara -->
+      <button class="leftB" id="right5" onclick="changeVid20()"></button>
+      <button class="leftB" id="center9" onclick="changeVid17()"></button>
+      <button class="rightB" id="left5" onclick="changeVid18()"></button>
+      <button class="rightB" id="center10" onclick="changeVid19()"></button>
+
+      <div class="description" id="leftalign">
+        <h6>Now playing: </h6>
+      </div>
+
+      <div class="description" id="rightalign">
+       <h6>Music – <span id="music">Afrobeat and classical remix (Love Nwantiti (ft. ElGrandeToto) by Ckay remixed with Eshcaton Tony Anderson </span> <br> Dancer – <span id="dancer">Dani</span> </h6>
+    </div>
+
+    </main>
+
+    <script src="sketch.js"></script>
+    
+  </body>
+</html>
