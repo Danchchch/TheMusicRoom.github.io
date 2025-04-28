@@ -17,6 +17,13 @@ canvas {
   z-index: 1;
 }
 
+#logo2 {
+  position: absolute;
+  padding: 15px;
+  width: 10cm;
+  z-index: 1;
+}
+
 main img {
   position: fixed;
   width: 100%;
