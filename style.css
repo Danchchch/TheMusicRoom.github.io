@@ -17,13 +17,6 @@ canvas {
   z-index: 1;
 }
 
-#logo2 {
-  position: absolute;
-  padding: 15px;
-  width: 10cm;
-  z-index: 1;
-}
-
 main img {
   position: fixed;
   width: 100%;
@@ -32,7 +25,7 @@ main img {
 }
 
 button {
-  background: url('/media/Asset_15.png');
+  background: url('./media/Asset_15.png');
   background-size: cover;
   width: 72px;
   height: 50px;
