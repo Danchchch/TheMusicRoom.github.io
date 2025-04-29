@@ -32,6 +32,8 @@ let video14on = false;
 let video15;
 let video15on = false;
 let timeCheck;
+
+document.getElementById("secmin").style.backgroundImage = "url('media/Asset\ 10.png')";
 // let videos = ["media/Video test 1.mp4", "media/Video test 2.mp4"]; i=i+1; videos[i].pause(); increase or decrease when it goes left/right;
 // crediting, style, colour, project book whole block
 
