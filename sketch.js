@@ -36,18 +36,18 @@ let timeCheck;
 // crediting, style, colour, project book whole block
 
 function preload() {
-  video1 = createVideo('/media/Video test 1.mp4');
-  video2 = createVideo('/media/Video test 2.mp4');
-  video3 = createVideo('/media/Video test 3.mp4');
-  video4 = createVideo('/media/Video test 4.mp4');
-  video5 = createVideo('/media/Video test 5.mp4');
-  video6 = createVideo('/media/Video test 6.mp4');
-  video7 = createVideo('/media/Video test 7.mp4');
-  video8 = createVideo('/media/Video test 8.mp4');
-  video10 = createVideo('/media/Video test 10.mp4');
-  video11 = createVideo('/media/Video test 11.mp4');
-  video13 = createVideo('/media/Video test 13.mp4');
-  video14 = createVideo('/media/Video test 14.mp4');
+  video1 = createVideo('/media/Videotest1.mp4');
+  video2 = createVideo('/media/Videotest2.mp4');
+  video3 = createVideo('/media/Videotest3.mp4');
+  video4 = createVideo('/media/Videotest4.mp4');
+  video5 = createVideo('/media/Videotest5.mp4');
+  video6 = createVideo('/media/Videotest6.mp4');
+  video7 = createVideo('/media/Videotest7.mp4');
+  video8 = createVideo('/media/Videotest8.mp4');
+  video10 = createVideo('/media/Videotest10.mp4');
+  video11 = createVideo('/media/Videotest11.mp4');
+  video13 = createVideo('/media/Videotest13.mp4');
+  video14 = createVideo('/media/Videotest14.mp4');
 }
 
 function setup() {
